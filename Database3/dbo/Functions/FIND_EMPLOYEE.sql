@@ -1,0 +1,10 @@
+﻿CREATE FUNCTION [dbo].[FIND_EMPLOYEE](@ID smallint)
+RETURNS VARCHAR(50)
+AS
+BEGIN
+DECLARE @result VARCHAR(50)
+SET @result=(SELECT LastName
+ FROM Employees
+ WHERE EmployeeID=@ID)
+RETURN (@result)
+END 

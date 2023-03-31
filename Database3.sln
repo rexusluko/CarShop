@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{3DFD86CD-D0B5-4752-864B-353D68BB7ACC}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "crshp", "crshp\crshp.sqlproj", "{6C860270-7BD6-46E5-AE80-2D658D6E79D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DFD86CD-D0B5-4752-864B-353D68BB7ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFD86CD-D0B5-4752-864B-353D68BB7ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFD86CD-D0B5-4752-864B-353D68BB7ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFD86CD-D0B5-4752-864B-353D68BB7ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C860270-7BD6-46E5-AE80-2D658D6E79D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C860270-7BD6-46E5-AE80-2D658D6E79D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C860270-7BD6-46E5-AE80-2D658D6E79D4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6C860270-7BD6-46E5-AE80-2D658D6E79D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C860270-7BD6-46E5-AE80-2D658D6E79D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C860270-7BD6-46E5-AE80-2D658D6E79D4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E836A0F-71EA-4ABF-AB79-79CB74412428}
+	EndGlobalSection
+EndGlobal
